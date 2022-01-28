@@ -58,7 +58,9 @@ Again, values for Thomas High School 9th grade students are "nan".
 Thomas High School falls in the third section ($630 to 644 per student), so this is the only group with slightly different results.
 
 %Passing Math : 73.48% to 73.46%
+
 %Passing Reading : 84.39% to 84.32% 
+
 %Overall Passing : 62.86% to 62.78%
 
 ### Grouped by school size 
@@ -69,7 +71,9 @@ Thomas High School falls in the third section ($630 to 644 per student), so this
 Thomas High Score has medium school size, so the following minor changes were observed in the results.
 
 %Passing Math : 93.60% to 93.58%
+
 %Passing Reading : 96.79% to 96.73%
+
 %Overall Passing : 90.62% to 90.56% 
 
 When formatted to 1 decimal place, only %Passing Reading has a 0.1% difference in values. 
@@ -82,7 +86,9 @@ When formatted to 1 decimal place, only %Passing Reading has a 0.1% difference i
 In this case, Thomas High School is a Charter school, so we observe the folling differences in that row. 
 
 %Passing Math : 93.62% to 93.61%
+
 %Passing Reading : 96.59% to 96.55%
+
 %Passing Overall : 90.43% to 90.39%
 
 Again, the differences are minor. 
