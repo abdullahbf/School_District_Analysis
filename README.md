@@ -2,7 +2,7 @@
 
 ## Purpose and Objectives
 
-The objective of this project was to analyze standardized test performance and finding trends on school and district level. The csv files can be found in the "Resources" folder. "PyCitySchools.ipynb" was the main analysis using the complete data in the .csv files. On the other hand, "PyCitySchools_Challenge.ipynb" analysis had a similar process but the test scores for 9th grade students in Thomas High School were changed to null values due to suspected academic dishonesty.
+The objective of this project was to analyze standardized test performance and find trends on school and district level. The csv files can be found in the "Resources" folder. "PyCitySchools.ipynb" was the main analysis using the complete data in the .csv files. On the other hand, "PyCitySchools_Challenge.ipynb" analysis had a similar process but the test scores for 9th grade students in Thomas High School were changed to null values due to suspected academic dishonesty.
 
 ## Results
 
