@@ -41,7 +41,7 @@ No major changes were observed here, as expected.
 <img width="312" alt="PyPoll_math_bygrade" src="https://user-images.githubusercontent.com/92544151/151629853-79ff16b9-e888-41a2-a1d6-94b392b77ec9.png">
 <img width="316" alt="Challenge_math_bygrade" src="https://user-images.githubusercontent.com/92544151/151629866-d9dd3d7d-d0ef-4850-ac08-1f6de0d1a14c.png">
 
-This shows and confirms that the results for the Thomas High School 9th grade were changed to "nan".
+This confirms that the results for the Thomas High School 9th grade were changed to "nan".
 
 ### Reading scores by grade 
 
