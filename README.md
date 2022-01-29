@@ -101,6 +101,6 @@ Again, the differences are minor.
 
 We can see that the exclusion of 9th grade scores of one high school affected the district results by a tenth of a percentage (%Overall Passing - 65% to 64.9%). Similarly small changes were observed for the %Passing Math and %Passing Reading. On the other hand, when you look at the school summary, there is a big decline for all three percentages when counting the students with "nan" values. After those 9th grader results have been excluded though, the results are closer to the ones in "PyCitySchools.ipynb". Thomas High School still stays at the second spot in top 5 schools based on %Overall Passing as the differences observed are minor enough.  
 
-With regards to the comparisons made after grouping the scores by school spending, school size and school type, the differences are only one-tenth at most, as the results section highlighted. 
+With regards to the comparisons made after grouping the scores by school spending, school size and school type, the differences are only one-tenth at most, as the results section highlighted. The differences are not significant enough to affect future planning and management of the disrict. 
 
 
