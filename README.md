@@ -18,9 +18,13 @@ As the results above show, the district summary for the challenge shows a slight
 ### School summary
 
 <img width="1193" alt="PyPoll_school_summary" src="https://user-images.githubusercontent.com/92544151/151627816-e4e644c7-35ae-4765-8e9e-2fdbcfd27c72.png">
-<img width="1197" alt="Challenge_school_summary" src="https://user-images.githubusercontent.com/92544151/151627972-6d01bd69-e367-4f8c-99b2-9e69ba095a71.png">
+<img width="1197" alt="Challenge_school_summary" src="https://user-images.githubusercontent.com/92544151/151636934-d79453f0-cc60-4161-b3cd-969516ddbef4.png">
 
-For this part of the analysis, "Thomas High School" is the only one with different results. The %Passing Math went down from 93.2% to 66.9%. Similar decreases for %Passing Reading (97.3% to 69.7%) and %Overall Passing (90.9% to 65.1%) were observed. A decrease was expected as the scores for 9th grade students in the school were changed to null. 
+For this part of the analysis, if the "nan" values of the 9th graders at Thomas high school are counted, the %Passing Math goes down from 93.2% to 66.9%. Similar decreases for %Passing Reading (97.3% to 69.7%) and %Overall Passing (90.9% to 65.1%) are observed. A decrease is expected as the scores for 9th grade students in the school were changed to null, but the percentage calculation still counts those students in the total number of students.
+
+After correcting the total number of students for the calculation(i.e. excluding the 9th graders from the total number of students), we get results with minor differences to the ones in "PyCitySchools.ipynb".
+
+<img width="858" alt="Challenge_ school summary" src="https://user-images.githubusercontent.com/92544151/151637000-2e4a173a-909c-4e09-8268-9adabdbcd836.png">
 
 ### Top 5 schools
 
@@ -95,8 +99,8 @@ Again, the differences are minor.
 
 ## Summary 
 
+We can see that the exclusion of 9th grade scores of one high school affected the district results by a tenth of a percentage (%Overall Passing - 65% to 64.9%). Similarly small changes were observed for the %Passing Math and %Passing Reading. On the other hand, when you look at the school summary, there is a big decline for all three percentages when counting the students with "nan" values. After those 9th grader results have been excluded though, the results are closer to the ones in "PyCitySchools.ipynb". Thomas High School still stays at the second spot in top 5 schools based on %Overall Passing as the differences observed are minor enough.  
 
-
-
+With regards to the comparisons made after grouping the scores by school spending, school size and school type, the differences are only one-tenth at most, as the results section highlighted. 
 
 
